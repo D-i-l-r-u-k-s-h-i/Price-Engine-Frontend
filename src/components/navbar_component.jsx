@@ -8,7 +8,7 @@ function NavBarComponent() {
     return (
         <div>
         <Navbar bg="dark" variant="dark" fixed='top'>
-          <Navbar.Brand href="/">Price Engine</Navbar.Brand>
+          <Navbar.Brand href="/">Home</Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link href="/calc">Calculate Order</Nav.Link>
           </Nav>

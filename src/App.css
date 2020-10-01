@@ -8,3 +8,9 @@
   text-align: center;
   color: white;
 }
+
+.inputsize{
+  width: 30px;
+  text-align: center;
+  margin-left: 10px;
+}

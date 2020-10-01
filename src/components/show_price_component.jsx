@@ -43,7 +43,7 @@ export class ShowPriceComponent extends Component {
     
     render() {
         let {productData}=this.state
-        console.log(productData)
+        // console.log(productData)
         return (
             <div>
                 <Container>
