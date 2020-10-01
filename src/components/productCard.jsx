@@ -48,6 +48,7 @@ export class ProductCard extends Component {
         if(this.props.priceData !== prevProps.priceData && (this.props.priceData && this.props.priceData.productId)==this.props.props.productId) {
             console.log(this.props.priceData)
             this.setState({priceData:this.props.priceData})
+            this.props.refresh(this.props.priceData)
         }
 
         if(this.state.qty!=null && this.state.type!=prevState.type){
